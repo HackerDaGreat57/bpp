@@ -32,7 +32,7 @@ I'm sorry for trying to ditch GitHub, my friends. **The Gitea migration has been
 5. Make a [Pull Request](https://github.com/HackerDaGreat57/bpp/pulls). Only trusted Collaborators will have push access to the repository, and everyone else always has Pull Request permissions.
 
 ### Map
-I use [Visual Studio Code](https://github.com/microsoft/vscode) to edit the source code of the program, mainly because VS Code is the only editor apart from the real Visual Studio that has built-in IntelliSense. There is an [extention](https://github.com/wk-j/vscode-save-and-run) I have installed in VS Code that runs a Task every time my source code file is saved. That Task runs a Windows Batch File that is responsible for setting up the build and calling GCC.
+I use [Visual Studio Code](https://github.com/microsoft/vscode) to edit the source code of the program, mainly because VS Code is the only editor apart from the real Visual Studio that has built-in IntelliSense. There is an [extention](https://github.com/wk-j/vscode-save-and-run) I have installed in VS Code that runs a Task every time my source code file is saved. That Task runs a Windows Batch File or Linux Shell Script that is responsible for setting up the build and calling GCC.
 
 Since all the code of the program is in one file, I used a [bookmarks extention](https://github.com/alefragnani/vscode-bookmarks) as well. It is configured to store bookmarks in [`.vscode/bookmarks.json`](https://github.com/HackerDaGreat57/bpp/blob/main/.vscode/bookmarks.json).
 
@@ -42,4 +42,4 @@ This application is meant to replace all the overpriced proprietary software out
 My stance on proprietary software is exactly the opposite of Bill Gates' opinion, including the hint of anger. Microsoft Windows and Apple's operating systems are the only exceptions, but even that's only because over 60% of the world's personal computers are running them.
 
 ## The history of this project
-If you look at the 41 repositories I currently have, they are either forks or baseless claims of greatness. These are the products of me not having enough time to work on them properly, but now that summer is over and my teachers are giving less homework I am able to actually get somewhere. I have wanted to build this app since 2019, but I never found enough time to do so until now.
+If you look at the 45 repositories I currently have, they are either forks or baseless claims of greatness. These are the products of me not having enough time to work on them properly, but now that summer is over and my teachers are giving less homework I am able to actually get somewhere. I have wanted to build this app since 2019, but I never found enough time to do so until now.
