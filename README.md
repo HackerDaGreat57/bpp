@@ -3,7 +3,18 @@ A *somewhat experimental* C++ application. The project was created in order to l
 
 The above parahgraph basically states that this is a project that will do **anything**.
 
-Apple Macintosh/Linux compatibility is planned but not guaranteed (for now). Make a [Pull Request](https://github.com/HackerDaGreat57/bpp/pulls) please!
+## Platforms this project supports
+### Windows
+* **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
+* **Supported architecture(s):** `x86-64`
+
+### Linux
+* **Build method:** [`scripts/build.debian.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.debian.linux.sh)
+* **Supported architecture(s):** `x86-64`
+* **Supported distro(s):** Ubuntu/Debian
+
+### Apple Macintosh
+I currently do not have proper access to a physical Mac device. Please create a [Pull Request](https://github.com/HackerDaGreat57/bpp/pulls) if you can. Until we get proper Mac support, I will be 'blind coding' by using [Apple's Metal-C++ Documentation](https://developer.apple.com/metal/cpp/) without testing it. This might be stupid but it could give us a head start on something.
 
 ## Current state of the project/development status
 You can view Blender++'s [GitHub Project](https://github.com/users/HackerDaGreat57/projects/2).
