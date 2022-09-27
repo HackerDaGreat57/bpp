@@ -1,0 +1,30 @@
+/*bpp.rc: Resource file for Blender++*/
+
+#include <windows.h> //Include for version info constants
+
+1 VERSIONINFO
+FILEVERSION 0,0,0,87
+PRODUCTVERSION 0,0,0,87
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "0401264E4"
+    {
+      VALUE "CompanyName", "HackerDaGreat57 Software"
+      VALUE "FileVersion", "0.0.0.87"
+      VALUE "FileDescription", "Blender++ | Windows x64"
+      VALUE "InternalName", "bpp.exe"
+      VALUE "LegalCopyright", "(c) HackerDaGreat57 Software 2022. All rights reserved."
+      VALUE "LegalTrademarks", "(Not trademarked)"
+      VALUE "OriginalFilename", "bpp.exe"
+      VALUE "ProductName", "Blender++"
+      VALUE "ProductVersion", "0.0.0.87"
+    }
+  }
+  
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1287
+  }
+}

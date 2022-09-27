@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Settings>
+  <General>
+    <ExtractMode Path="C:\bpp" AllowEdit="True">Custom</ExtractMode>
+    <HideProgress>False</HideProgress>
+    <ProgressDisableCancel>False</ProgressDisableCancel>
+    <SelfDelete>False</SelfDelete>
+    <CompressStub>True</CompressStub>
+    <XPStyles>True</XPStyles>
+    <HideTitleIcon>False</HideTitleIcon>
+    <PromptShowSFXIcon>True</PromptShowSFXIcon>
+    <Overwrite>Older</Overwrite>
+    <MessageBegin Show="True">Start Blender++ v0.0.1.0 installation?</MessageBegin>
+    <MessageCancel Show="True">Are you sure you want to cancel the installation?</MessageCancel>
+    <MessageFinish Show="True">Successfully installed! Make sure to restart your computer to ensure that Blender++ works properly.</MessageFinish>
+    <TitleText>Blender++ Installer</TitleText>
+    <ExtractPathText>Please select the installation path:</ExtractPathText>
+    <ExtractCancelText>Cancel</ExtractCancelText>
+    <ExtractDialogText>Please wait while Blender++ is installing...</ExtractDialogText>
+    <ExtractTitleText>Installing...</ExtractTitleText>
+    <ExtractShowIcon>True</ExtractShowIcon>
+    <ProgressPercent>0</ProgressPercent>
+    <ProgressShowIcon>True</ProgressShowIcon>
+    <Icon>D:\src\_software\7zsfxmaker\Resources\06.ico</Icon>
+  </General>
+  <Tasks>
+    <Item Enabled="True">RunProgram="hidcon:\"%SystemRoot%/System32/reg.exe\" add HKCU\\Console /v VirtualTerminalLevel /t REG_DWORD /d 1"</Item>
+  </Tasks>
+  <VersionString>
+    <Item Name="Comments" Value="This is the official Blender++ installer." Enabled="True" />
+    <Item Name="CompanyName" Value="HackerDaGreat57 Software" Enabled="True" />
+    <Item Name="FileDescription" Value="Blender++ Installer" Enabled="True" />
+    <Item Name="FileVersion" Value="0, 0, 1, 0" Enabled="True" />
+    <Item Name="InternalName" Value="bpp" Enabled="True" />
+    <Item Name="LegalCopyright" Value="Copyright © 2022 Akshat Singh" Enabled="True" />
+    <Item Name="LegalTrademarks" Value="(Not trademarked)" Enabled="True" />
+    <Item Name="OriginalFilename" Value="bpp_installer.exe" Enabled="True" />
+    <Item Name="PrivateBuild" Value="False (public build)" Enabled="True" />
+    <Item Name="ProductName" Value="Blender++" Enabled="True" />
+    <Item Name="ProductVersion" Value="0, 0, 1, 0" Enabled="True" />
+    <Item Name="SpecialBuild" Value="False" Enabled="True" />
+  </VersionString>
+</Settings>

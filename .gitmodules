@@ -1,0 +1,6 @@
+[submodule "_deps/_vcpkg"]
+	path = _deps/_vcpkg
+	url = https://github.com/microsoft/vcpkg
+[submodule "_deps/vcpkg"]
+	path = _deps/vcpkg
+	url = https://github.com/HackerDaGreat57/vcpkg
