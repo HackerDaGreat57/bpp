@@ -1,20 +1,25 @@
 # Blender++
-A *somewhat experimental* C++ application. The project was created in order to let people have the freedom to do whatever they want, with no limitations or restrictions, without having to pay a single penny to anyone. But this will only happen once it gets mature enough to actually make a difference. There's a long, **long** way to go until we reach that checkpoint, but I'm just doing what I can for now.
+A *somewhat experimental* application that was created in order to let people have the freedom to do whatever they want, with no limitations or restrictions, without having to pay a single penny to anyone. But this will only happen once it gets mature enough to actually make a difference. There's a long, **long** way to go until we reach that checkpoint, but I'm just doing what I can for now.
 
-The above parahgraph basically states that this is a project that will do **anything**.
+The above parahgraph basically states that this is a project that will do **anything** like picture manipulation, text processing, etc.
 
 ## Platforms this project supports
 ### Windows
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
 * **Supported architecture(s):** `x86-64`
+* **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 (no Service Pack), but there is no guarantee.
 
 ### Linux
 * **Build method:** [`scripts/build.debian.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.debian.linux.sh)
 * **Supported architecture(s):** `x86-64`
 * **Supported distro(s):** Ubuntu/Debian
+* **Supported version(s):** Tested on Ubuntu 22.04.1 *Jammy Jellyfish*, may or may not work on previous versions.
 
-### Apple Macintosh
-I currently do not have proper access to a physical Mac device. Please create a [Pull Request](https://github.com/HackerDaGreat57/bpp/pulls) if you can. Until we get proper Mac support, I will be 'blind coding' by using [Apple's Metal-C++ Documentation](https://developer.apple.com/metal/cpp/) without testing it. This might be stupid but it could give us a head start on something.
+### Apple Devices (someone with a Mac please help)
+The [`apple` branch](https://github.com/HackerDaGreat57/bpp/tree/apple) has (ahem ahem *will* have) ports of Blender++ for Apple devices, written in pure Swift. (Still under construction so that's mostly blank at the moment - for now you can use the Live port below.) If you want to help set up Apple ports, [go right ahead](https://github.com/HackerDaGreat57/bpp/pulls).
+
+### Online (under very very early development, so not released yet)
+*Blender++ Live* will be written in JavaScript and React, and will match the feature set of all other versions. Use this port if you are using a device other than Windows or Linux.
 
 ## Current state of the project/development status
 You can view Blender++'s [GitHub Project](https://github.com/users/HackerDaGreat57/projects/2).
