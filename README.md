@@ -1,25 +1,37 @@
+{This readme is under heavy construction. Expect things to not make sense and be broken for now.}
+
 # Blender++
 A *somewhat experimental* application that was created in order to let people have the freedom to do whatever they want, with no limitations or restrictions, without having to pay a single penny to anyone. But this will only happen once it gets mature enough to actually make a difference. There's a long, **long** way to go until we reach that checkpoint, but I'm just doing what I can for now.
 
 The above parahgraph basically states that this is a project that will do **anything** like picture manipulation, text processing, etc.
 
 ## Platforms this project supports
+The ports for Windows and Linux are in this branch. The appropriate branch is linked for every other port.
+
 ### Windows
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
 * **Supported architecture(s):** `x86-64`
-* **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 (no Service Pack), but there is no guarantee.
+* **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 Service Pack 1 or later, but there is no guarantee.
 
 ### Linux
-* **Build method:** [`scripts/build.debian.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.debian.linux.sh)
+* **Build method:** [`scripts/build.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.linux.sh) (this file currently does not exist)
 * **Supported architecture(s):** `x86-64`
 * **Supported distro(s):** Ubuntu/Debian
 * **Supported version(s):** Tested on Ubuntu 22.04.1 *Jammy Jellyfish*, may or may not work on previous versions.
 
-### Apple Devices (someone with a Mac please help)
-The [`apple` branch](https://github.com/HackerDaGreat57/bpp/tree/apple) has (ahem ahem *will* have) ports of Blender++ for Apple devices, written in pure Swift. (Still under construction so that's mostly blank at the moment - for now you can use the Live port below.) If you want to help set up Apple ports, [go right ahead](https://github.com/HackerDaGreat57/bpp/pulls).
+### Apple Devices (not under development yet) [someone with a Mac please help]
+macOS, iOS, iPadOS, watchOS, and tvOS versions will all be based on Swift/SwiftUI (backend/frontend). No renderer options - only SwiftUI will be supported.
+
+I have no Apple devices other than a 1st-generation iPhone SE and a 1st-generation Apple Watch, so this is mostly blank at the moment - for now you can use the Live port when it comes out. If you want to help set up Apple ports, [go right ahead](https://github.com/HackerDaGreat57/bpp/pulls).
+
+### Java (under very very early development, so not released yet)
+This port will work wherever OpenJDK 1.19 works, using JavaFX/Swing/AWT/(OpenGL/Vulkan via `lwjgl3`) for the GUI. Under development.
+
+### Android (under very very early development, so not released yet)
+Under development.
 
 ### Online (under very very early development, so not released yet)
-*Blender++ Live* will be written in JavaScript and React, and will match the feature set of all other versions. Use this port if you are using a device other than Windows or Linux.
+*Blender++ Live* will be written in JavaScript and React, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement.
 
 ## Current state of the project/development status
 You can view Blender++'s [GitHub Project](https://github.com/users/HackerDaGreat57/projects/2).
