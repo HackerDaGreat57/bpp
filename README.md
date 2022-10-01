@@ -15,7 +15,7 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 
 ### Linux
 * **Build method:** [`scripts/build.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.linux.sh) (this file currently does not exist)
-* **Supported architecture(s):** `x86-64`
+* **Supported architecture(s):** `x86-64`, `arm64`
 * **Supported distro(s):** Ubuntu/Debian
 * **Supported version(s):** Tested on Ubuntu 22.04.1 *Jammy Jellyfish*, may or may not work on previous versions.
 
