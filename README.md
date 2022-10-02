@@ -1,4 +1,4 @@
-{This readme is under heavy construction. Expect things to not make sense and be broken for now.}
+{This readme is under very heavy construction. Expect things to not make sense and be broken for now.}
 
 # Blender++
 A *somewhat experimental* application that was created in order to let people have the freedom to do whatever they want, with no limitations or restrictions, without having to pay a single penny to anyone. But this will only happen once it gets mature enough to actually make a difference. There's a long, **long** way to go until we reach that checkpoint, but I'm just doing what I can for now.
