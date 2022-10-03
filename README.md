@@ -22,7 +22,7 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 ### Apple Devices (not under development yet) [someone with a Mac please help]
 macOS, iOS, iPadOS, watchOS, and tvOS versions will all be based on Swift/SwiftUI (backend/frontend). No renderer options - only SwiftUI will be supported.
 
-I have no Apple devices other than a 1st-generation iPhone SE and a 1st-generation Apple Watch, so this is mostly blank at the moment - for now you can use the Live port when it comes out. If you want to help set up Apple ports, [go right ahead](https://github.com/HackerDaGreat57/bpp/pulls).
+I have no Apple devices other than a 1st-generation iPhone SE and a 1st-generation Apple Watch, so this is mostly blank at the moment. If you want to help set up Apple ports, [go right ahead](https://github.com/HackerDaGreat57/bpp/pulls).
 
 ### Java (under very very early development, so not released yet)
 This port will work wherever OpenJDK 1.19 works, using JavaFX/Swing/AWT/(OpenGL/Vulkan via `lwjgl3`) for the GUI. Under development.
