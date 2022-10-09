@@ -1,5 +1,3 @@
-{This readme is under very heavy construction. Expect things to not make sense and be broken for now.}
-
 # Blender++
 A multi-purpose free and open-source application that aims to (eventually) be a complete software suite which will replace all software on your computer except for your operating system and drivers. It's like a neat little toolbox that you can take apart and tinker with, just like the [Blender](https://www.blender.org/) project.
 
@@ -10,12 +8,12 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 
 ### Windows
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
-* **Supported architecture(s):** `x86-64`
+* **Supported architecture(s):** `x86-64`, `x86-32`
 * **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 Service Pack 1 or later, but there is no guarantee.
 
 ### Linux
 * **Build method:** [`scripts/build.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.linux.sh) (this file currently does not exist)
-* **Supported architecture(s):** `x86-64`, `arm64`
+* **Supported architecture(s):** `x86-64`, `x86-32`, `arm64`
 * **Supported distro(s):** Ubuntu/Debian
 * **Supported version(s):** Tested on Ubuntu 22.04.1 *Jammy Jellyfish*, may or may not work on previous versions.
 
