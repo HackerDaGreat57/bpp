@@ -1,2 +1,2 @@
-# Blender++ for Java VM
+# Blender++ Java Edition
 Planned, will start developing this version any week now...
