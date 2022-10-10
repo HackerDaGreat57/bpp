@@ -12,10 +12,7 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 * **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 Service Pack 1 or later, but there is no guarantee.
 
 ### Linux
-* **Build method:** [`scripts/build.linux.sh`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.linux.sh) (this file currently does not exist)
-* **Supported architecture(s):** `x86-64`, `x86-32`, `arm64`
-* **Supported distro(s):** Ubuntu/Debian
-* **Supported version(s):** Tested on Ubuntu 22.04.1 *Jammy Jellyfish*, may or may not work on previous versions.
+Currently not supported. This may get somewhere when I get my hands on a Raspberry Pi	😅
 
 ### Apple Devices (not under development yet) [someone with a Mac please help]
 macOS, iOS, iPadOS, watchOS, and tvOS versions will all be based on Swift/SwiftUI (backend/frontend). No renderer options - only SwiftUI will be supported.
