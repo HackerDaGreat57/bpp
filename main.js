@@ -3,9 +3,7 @@ const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
   render() {
-    return React.createElement("div", ' ', React.createElement("span", {
-      style: "apptitle"
-    }, null, "Blender++ Live"));
+    return React.createElement("div", ' ', React.createElement("span", "Blender++ Live"));
   }
 }
 
