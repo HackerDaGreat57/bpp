@@ -1,6 +1,4 @@
 //main.js: Blender++ Live main source code
-const css = require('main.css');
-
 const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
