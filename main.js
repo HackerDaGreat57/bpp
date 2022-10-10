@@ -5,7 +5,8 @@ class AppTitle extends React.Component {
   render() {
     return React.createElement("div", ' ', React.createElement("span", {
       style: {
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        FontFace: 'fonts/tahoma.woff'
       }
     }, null, "Blender++ Live"));
   }
