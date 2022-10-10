@@ -9,6 +9,6 @@
 apptitle {
   font-family: 'bpp_Tahoma';
   src: url('fonts/tahoma.woff') format('woff');
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }

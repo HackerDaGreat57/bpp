@@ -4,10 +4,7 @@ const reactElement = React.createElement;
 class AppTitle extends React.Component {
   render() {
     return React.createElement("div", ' ', React.createElement("span", {
-      style: {
-        fontWeight: 'bold',
-        "apptitle"
-      }
+      style: "apptitle"
     }, null, "Blender++ Live"));
   }
 }
