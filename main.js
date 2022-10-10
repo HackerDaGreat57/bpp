@@ -14,11 +14,3 @@ class AppTitle extends React.Component {
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
 root.render(reactElement(AppTitle));
-
-export default function App() {
-  return /*#__PURE__*/React.createElement("div", null, "Coding", ' ', /*#__PURE__*/React.createElement("span", {
-    style: {
-      fontWeight: 'bold'
-    }
-  }, "Beauty"));
-}
