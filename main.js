@@ -1,5 +1,5 @@
 //main.js: Blender++ Live main source code
-import "main.css"
+const css = require('main.css');
 
 const reactElement = React.createElement;
 
