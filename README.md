@@ -28,6 +28,14 @@ Under development.
 ### Online (branch 'live')
 *Blender++ Live* will be written in JavaScript and React, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement.
 
+## Update Order
+Since it's impossible to develop every version of this application at the same time, different versions of the app will be updated at different times.
+1. Cloud-based version will be updated first, because it is very easy to come up with designs and prototype code in JavaScript than any other language. Development will be happening in this edition and we'll just be translating the code of this version to other versions once an update is final.
+2. Java VM
+3. Apple Devices
+4. Android
+5. Windows/Linux
+
 ## Current state of the project/development status
 You can view Blender++'s [GitHub Project](https://github.com/users/HackerDaGreat57/projects/2).
 
@@ -39,7 +47,7 @@ I'm sorry for trying to ditch GitHub, my friends. **The Gitea migration has been
 ### Process
 1. Clone the repository
 2. Write code (lol)
-3. Compile & test **thoroughly** to make sure your stuff works
+3. Compile (if applicable) & test **thoroughly** to make sure your stuff works
 4. Add binaries to [`.gitignore`](https://github.com/HackerDaGreat57/bpp/blob/main/.gitignore), if there are new binaries that aren't already ignored
 5. Make a [Pull Request](https://github.com/HackerDaGreat57/bpp/pulls). Only trusted Collaborators will have push access to the repository, and everyone else always has Pull Request permissions.
 
@@ -51,7 +59,7 @@ Since all the code of the program is in one file, I used a [bookmarks extention]
 ## Why did you create this project?
 This application is meant to replace all the overpriced proprietary software out there that doesn't give you any freedom. I believe that computer software was meant to be free and open, and some desperate people from 1969 ([yes, literally](https://en.wikipedia.org/wiki/Proprietary_software#Origin)) decided to unnecessarily close and monetize it. I know we all have to make a buck or two, but I really don't think software is the way to do that.
 
-My stance on proprietary software is exactly the opposite of Bill Gates' opinion, including the hint of anger. Microsoft Windows and Apple's operating systems are the only exceptions, but even that's only because over 60% of the world's personal computers are running them.
+My stance on proprietary software is exactly the opposite of Bill Gates' opinion, including the hint of anger. Microsoft Windows and Apple's operating systems are the only exceptions, but even that's only because over 60% of the world's personal computers are running them. And still I feel that there is injustice done to us due to having to pay $130+ for the most popular operating system in the world.
 
 ## The history of this project
 If you look at the dozens of repositories I currently have, they are either forks or baseless claims of greatness. These are the products of me not having enough time to work on them properly, but now that summer is over and my teachers are giving less homework I am able to actually get somewhere. I have wanted to build this app since 2019, but I never found enough time to do so until now.
