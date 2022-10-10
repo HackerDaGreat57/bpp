@@ -9,7 +9,7 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 ### Windows (branch 'cpp')
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
 * **Supported architecture(s):** `x86-64`, `x86-32`
-* **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 Service Pack 1 or later, but there is no guarantee.
+* **Supported version(s):** Aiming for compatibility with at least Windows 7 Service Pack 1 or later, but there is no guarantee.
 
 ### Linux (branch 'cpp')
 Currently not supported, but planned. This version will be based on the Windows version codebase with some slight Linux-specific differences. We need help!
