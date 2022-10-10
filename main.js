@@ -1,6 +1,4 @@
 //main.js: Blender++ Live main source code
-import "./fonts/tahoma.woff";
-
 const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
