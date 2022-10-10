@@ -2,7 +2,7 @@
 A multi-purpose free and open-source application that aims to (eventually) be a complete software suite which will replace all software on your computer except for your operating system and drivers. It's like a neat little toolbox that you can take apart and tinker with, just like the [Blender](https://www.blender.org/) project.
 
 ## Platforms this project supports
-We plan on world dominance. We plan to support Windows, macOS, Linux, Android, iOS, watchOS, tvOS, iPadOS, Java VM, and cloud-based JavaScript.
+We plan on world dominance. We **plan** to support Windows, macOS, Linux, Android, iOS, watchOS, tvOS, iPadOS, Java VM, and cloud-based JavaScript.
 
 The ports for Windows and Linux are in this branch. The appropriate branch is linked for every other port.
 
