@@ -6,26 +6,26 @@ We plan on world dominance. We **plan** to support Windows, macOS, Linux, Androi
 
 The ports for Windows and Linux are in this branch. The appropriate branch is linked for every other port.
 
-### Windows
+### Windows (branch 'cpp')
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
 * **Supported architecture(s):** `x86-64`, `x86-32`
 * **Supported version(s):** Aiming for compatibility with at least Windows 7 x64 Service Pack 1 or later, but there is no guarantee.
 
-### Linux
-Currently not supported. This may get somewhere when I get my hands on a Raspberry Pi	😅
+### Linux (branch 'cpp')
+Currently not supported, but planned. This version will be based on the Windows version codebase with some slight Linux-specific differences. We need help!
 
-### Apple Devices (not under development yet) [someone with a Mac please help]
+### Apple Devices (branch 'macos', 'ios', 'ipados', 'watchos', 'tvos')
 macOS, iOS, iPadOS, watchOS, and tvOS versions will all be based on Swift/SwiftUI (backend/frontend). No renderer options - only SwiftUI will be supported.
 
 I have no Apple devices other than a 1st-generation iPhone SE and a 1st-generation Apple Watch, so this is mostly blank at the moment. If you want to help set up Apple ports, [go right ahead](https://github.com/HackerDaGreat57/bpp/pulls).
 
-### Java (under very very early development, so not released yet)
+### Java (branch 'java')
 This port will work wherever OpenJDK 1.19 works, using JavaFX/Swing/AWT/(OpenGL/Vulkan via `lwjgl3`) for the GUI. Under development.
 
-### Android (under very very early development, so not released yet)
+### Android (branch 'android')
 Under development.
 
-### Online (under very very early development, so not released yet)
+### Online (branch 'live')
 *Blender++ Live* will be written in JavaScript and React, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement.
 
 ## Current state of the project/development status
