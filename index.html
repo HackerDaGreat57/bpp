@@ -1,13 +1,12 @@
 <!-- index.html: Fire up React and get into the JS-based GUI -->
 <html>
-  <head> <!-- Stuff the user can't see - load libraries -->
-    <script src="thirdparty/react.development.js" crossorigin></script>
-    <script src="thirdparty/react-dom.development.js" crossorigin></script>
+  <head> <!-- Get everything set up -->
+    <meta charset="UTF-8"/>
     
-    <script src="main.js"></script> <!-- The main source code -->
-  </head>
-  
-  <body> <!-- Stuff the user can see -->
+    <script src="thirdparty/react.development.js"></script>
+    <script src="thirdparty/react-dom.development.js"></script>
+    
     <div id="render_area"></div> <!-- Create the React div to render to -->
-  </body>
+    <script src="main.js"></script> <!-- Tell React to start rendering -->
+  </head>
 </html>
