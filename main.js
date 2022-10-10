@@ -1,28 +1,16 @@
 //main.js: Blender++ Live main source code
-'use strict';
+const reactElement = React.createElement;
 
-const e = React.createElement;
-
-class LikeButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {liked: false};
-  }
-
+class AppTitle extends React.Component {
   render() {
-    if (this.state.liked) {
-      return 'You liked this.';
-    }
-
-    return e(
-      'button', {
-        onClick: () => this.setState({liked: true})
-      },
-      'Like'
+    return React.createElement(
+      "div",
+      null,
+      "Blender++ Live"
     );
   }
 }
 
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
-root.render(e(LikeButton));
+root.render(reactElement(AppTitle));
