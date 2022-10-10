@@ -1,0 +1,7 @@
+/* main.css: Fonts and stuff for Blender++ Live */
+@font-face {
+  font-family: 'bpp_Tahoma';
+  src: url('fonts/tahoma.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

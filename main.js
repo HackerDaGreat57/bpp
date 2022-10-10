@@ -1,12 +1,14 @@
 //main.js: Blender++ Live main source code
+import "main.css"
+
 const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
   render() {
     return React.createElement("div", ' ', React.createElement("span", {
       style: {
-        fontWeight: 'bold',
-        FontFace: 'fonts/tahoma.woff'
+        FontFace: "bpp_Tahoma",
+        fontWeight: 'bold'
       }
     }, null, "Blender++ Live"));
   }
