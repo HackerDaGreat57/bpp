@@ -3,7 +3,7 @@ const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
   render() {
-    return React.createElement("div", null, null, "Blender++ Live");
+    return React.createElement("div", "Blender++ Live");
   }
 }
 
