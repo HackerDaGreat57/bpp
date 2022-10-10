@@ -3,11 +3,11 @@ const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
   render() {
-    return React.createElement("div", null, "Blender++ Live", React.createElement("span", {
+    return React.createElement("div", React.createElement("span", {
       style: {
         fontWeight: 'bold'
       }
-    }));
+    }), null, "Blender++ Live");
   }
 }
 
