@@ -3,7 +3,7 @@ const reactElement = React.createElement;
 
 class AppTitle extends React.Component {
   render() {
-    return React.createElement("div", ' ', React.createElement("span style='apptitle'", {
+    return React.createElement("div", ' ', React.createElement("span", {
       style: {
         fontWeight: 'bold'
       }
