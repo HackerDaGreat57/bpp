@@ -1,7 +1,7 @@
 /* main.css: Fonts and stuff for Blender++ Live */
 @font-face {
   font-family: 'bpp_Tahoma';
-  src: url('./fonts/tahoma.woff') format('woff');
+  src: url('https://hackerdagreat57.github.io/bpp/fonts/tahoma.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
