@@ -1,0 +1,34 @@
+{ //Common code snippets for Blender++ to make programming easier
+	"Blender++ print message": {
+		"scope": "cpp",
+		"prefix": "bppM",
+		"body": [
+			"std::cout << \"{Blender++ Core} [\" << __FILE__ << \":\" << __LINE__ << \"] $2\" << std::endl;"
+		],
+		"description": "Print message in Blender++"
+	},
+	"Blender++ Color Code Foreground": {
+		"scope": "cpp",
+		"prefix": "fgclr",
+		"body": [
+			"std::string ${1:clrName} = \"\\x1b[38;2;${2:red};${3:green};${4:blue}m\";"
+		],
+		"description": "Declare foreground color in Blender++"
+	},
+	"Blender++ Color Code Background": {
+		"scope": "cpp",
+		"prefix": "bgclr",
+		"body": [
+			"std::string ${1:clrName} = \"\\x1b[48;2;${2:red};${3:green};${4:blue}m\";"
+		],
+		"description": "Declare background color in Blender++"
+	},
+	"Blender++ Test Color": {
+		"scope": "cpp",
+		"prefix": "testclr",
+		"body": [
+			"std::cout << bpp::text_colors::foreground::${1:color} << \"${2:colorName}\" << std::endl;"
+		],
+		"description": "Test color in Blender++"
+	}
+}
