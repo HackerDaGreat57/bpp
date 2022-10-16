@@ -1,3 +1,5 @@
 bin/
 obj/
 gmon.out
+gcc-12.2.0.tar.gz
+gcc-12.2.0/
