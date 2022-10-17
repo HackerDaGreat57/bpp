@@ -6,7 +6,7 @@ const reactElement = React.createElement;
 //Styles
 const appTitle_style = {
   fontFamily: 'Tahoma',
-  fontSize: '5em',
+  fontSize: '2em',
   fontWeight: 'bold',
   color: 'black'
 };
