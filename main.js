@@ -15,25 +15,37 @@ class app_title extends React.Component { //Create the title element.
   }
 };
 
-class start_popup extends React.Component { //Create the start pop-up.
+class start_popup extends React.Component { //Create the start popup.
   render() {
     return React.createElement("div", {
       style: {
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
+        backgroundColor: '#454545',
         width: '50%',
         height: '50%',
-        backgroundColor: 'white',
-        borderRadius: '10px',
-        boxShadow: '0px 0px 10px #000000',
-        animation: 'fly-in 0.5s ease-in-out',
-        animationFillMode: 'forwards'
+        borderRadius: '0.625em',
+        position: 'absolute',
+        top: '25%',
+        left: '25%',
+        boxShadow: '0em 0em 0.625em #060606'
       }
-    }, null, "Welcome to Blender++ Live!");
+    }, null, React.createElement("div", {
+      style: {
+        backgroundColor: '#282828',
+        width: '100%',
+        height: '10%',
+        borderTopLeftRadius: '10px',
+        borderTopRightRadius: '10px',
+        color: 'white',
+        fontFamily: 'bpp_Tahoma',
+        fontSize: '1.5em',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        paddingTop: '10px'
+      }
+    }, null, "Welcome to Blender++ Live!"));
   }
-};
+}
+
 
 //Set the background style.
 document.body.style.backgroundColor = '#454545';
