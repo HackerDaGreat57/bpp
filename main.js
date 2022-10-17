@@ -28,10 +28,6 @@ class start_popup extends React.Component { //Create the start screen pop-up.
   }
 
   handleMouseDown(e) {
-    this.setState({
-      x: e.clientX,
-      y: e.clientY
-    });
     document.addEventListener('mousemove', this.handleMouseMove);
     document.addEventListener('mouseup', this.handleMouseUp);
   }
