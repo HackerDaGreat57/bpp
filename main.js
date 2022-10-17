@@ -1,7 +1,7 @@
 //main.js: Blender++ Live main source code
 
 //Create the screen, basically
-class reactElement extends React.Component{
+class app_background extends React.Component{
   render() {
     return React.createElement("div", {
       style: {
@@ -14,7 +14,7 @@ class reactElement extends React.Component{
   }
 }
 
-class AppTitle extends React.Component {
+class app_title extends React.Component {
   render() {
     return React.createElement("div", null, React.createElement("span", {
       style: {
@@ -29,4 +29,5 @@ class AppTitle extends React.Component {
 
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
-root.render(reactElement(AppTitle));
+root.render(reactElement(app_background))
+root.render(reactElement(app_title));
