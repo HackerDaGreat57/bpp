@@ -12,7 +12,6 @@ function App() {
     }
   });
 }
-export default App;
 
 class AppTitle extends React.Component {
   render() {
@@ -21,7 +20,7 @@ class AppTitle extends React.Component {
         fontFamily: 'Tahoma',
         fontSize: '2em',
         fontWeight: 'bold',
-        color: 'white'
+        color: 'black'
       }
     }, null, "Blender++ Live"));
   }
@@ -30,3 +29,4 @@ class AppTitle extends React.Component {
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
 root.render(reactElement(AppTitle));
+export default App;
