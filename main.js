@@ -73,7 +73,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         fontSize: '1.5em',
         fontWeight: 'bold',
         textAlign: 'center',
-        paddingTop: '0.626em',
+        //paddingTop: '0.626em',
         borderRadius: '0.625em',
         userSelect: 'none'
       },
