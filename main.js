@@ -16,6 +16,42 @@ class app_title extends React.Component { //Create the title element.
 };
 
 class start_popup extends React.Component { //Create the start screen pop-up.
+  constructor(props) {
+    super(props);
+    this.state = {
+      x: 0,
+      y: 0
+    };
+    this.handleMouseDown = this.handleMouseDown.bind(this);
+    this.handleMouseMove = this.handleMouseMove.bind(this);
+    this.handleMouseUp = this.handleMouseUp.bind(this);
+  }
+
+  handleMouseDown(e) {
+    this.setState({
+      x: e.clientX,
+      y: e.clientY
+    });
+    document.addEventListener('mousemove', this.handleMouseMove);
+    document.addEventListener('mouseup', this.handleMouseUp);
+  }
+
+  handleMouseMove(e) {
+    this.setState({
+      x: e.clientX,
+      y: e.clientY
+    });
+  }
+
+  handleMouseUp(e) {
+    this.setState({
+      x: e.clientX,
+      y: e.clientY
+    });
+    document.removeEventListener('mousemove', this.handleMouseMove);
+    document.removeEventListener('mouseup', this.handleMouseUp);
+  }
+
   render() {
     return React.createElement("div", {
       style: {
@@ -24,12 +60,13 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         height: '50%',
         borderRadius: '0.625em',
         position: 'absolute',
-        top: '25%',
-        left: '25%',
+        top: this.state.y,
+        left: this.state.x,
         boxShadow: '0em 0em 1.625em #060606'
       }
-    }, null, React.createElement("div", {
+    }, null, React.createElement("div", { //Title bar
       style: {
+        cursor: 'move',
         backgroundColor: '#282828',
         width: '100%',
         height: '10%',
@@ -41,7 +78,8 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         fontWeight: 'bold',
         textAlign: 'center',
         paddingTop: '10px'
-      }
+      },
+      onMouseDown: this.handleMouseDown
     }, null, "Welcome to Blender++ Live!"));
   }
 }
