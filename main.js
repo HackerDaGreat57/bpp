@@ -29,4 +29,3 @@ class AppTitle extends React.Component {
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
 root.render(reactElement(AppTitle));
-export default App;
