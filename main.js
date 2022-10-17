@@ -19,8 +19,8 @@ class start_popup extends React.Component { //Create the start screen pop-up.
   constructor(props) {
     super(props);
     this.state = {
-      x: screen.width,
-      y: screen.height
+      x: screen.width / 2,
+      y: screen.height / 2
     };
     this.handleMouseDown = this.handleMouseDown.bind(this);
     this.handleMouseMove = this.handleMouseMove.bind(this);
