@@ -7,7 +7,7 @@ class app_title extends React.Component {
   render() {
     return React.createElement("span", {
       style: {
-        fontFamily: 'Tahoma',
+        fontFamily: 'fonts/tahoma.woff',
         fontSize: '2em',
         fontWeight: 'bold',
         color: 'black'
