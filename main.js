@@ -38,5 +38,5 @@ document.body.style = {
 
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
-root.render(reactElement(app_background))
+root.render(reactElement(app_background));
 root.render(reactElement(app_title));
