@@ -1,6 +1,8 @@
 //main.js: Blender++ Live main source code
 
 //Create the screen, basically
+const reactElement = React.createElement;
+
 class app_background extends React.Component{
   render() {
     return React.createElement("div", {
