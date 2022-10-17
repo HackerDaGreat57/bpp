@@ -19,8 +19,8 @@ class start_popup extends React.Component { //Create the start screen pop-up.
   constructor(props) {
     super(props);
     this.state = {
-      x: screen.width / 2,
-      y: screen.height / 2
+      x: screen.width,
+      y: screen.height
     };
     this.handleMouseDown = this.handleMouseDown.bind(this);
     this.handleMouseMove = this.handleMouseMove.bind(this);
@@ -41,8 +41,8 @@ class start_popup extends React.Component { //Create the start screen pop-up.
 
   handleMouseUp(e) {
     this.setState({
-      x: e.clientX / 2,
-      y: e.clientY / 2
+      x: e.clientX,
+      y: e.clientY
     });
     document.removeEventListener('mousemove', this.handleMouseMove);
     document.removeEventListener('mouseup', this.handleMouseUp);
@@ -54,7 +54,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         backgroundColor: '#454545',
         width: '75%',
         height: '75%',
-        position: 'absolute',
+        position: 'relative',
         borderRadius: '0.625em',
         top: this.state.y,
         left: this.state.x,
@@ -73,7 +73,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         fontSize: '1.5em',
         fontWeight: 'bold',
         textAlign: 'center',
-        paddingTop: '0.625em',
+        paddingTop: '0.626em',
         border: '1px solid #282828',
         borderRadius: '0.625em',
         userSelect: 'none'
