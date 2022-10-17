@@ -73,13 +73,13 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         fontWeight: 'bold',
         textAlign: 'center',
         paddingTop: '0.625em',
-        border: '1px solid #282828'
+        border: '1px solid #282828',
+        userSelect: 'none'
       },
       onMouseDown: this.handleMouseDown
     }, null, "Welcome to Blender++ Live!"));
   }
 }
-
 
 //Set the background style.
 document.body.style.backgroundColor = '#454545';
