@@ -29,6 +29,13 @@ class app_title extends React.Component {
   }
 }
 
+document.body.style = {
+  backgroundColor: '#454545',
+  foregroundColor: '#454545',
+  width: '100%',
+  height: '100%'
+}
+
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
 root.render(reactElement(app_background))
