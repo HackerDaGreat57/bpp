@@ -1,3 +1,5 @@
+//I am currently working on the JavaScript version. Please refer to https://github.com/HackerDaGreat57/bpp#update-order for more information.
+
 //bpp.cpp: The source code for Blender++ v0.0.0.126.
 //Make sure to install the Bookmarks extention the Visual Studio Code Marketplace. (The one with the blue icon.)
 

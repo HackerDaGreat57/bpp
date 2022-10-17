@@ -4,172 +4,172 @@
 			"path": "src/bpp.cpp",
 			"bookmarks": [
 				{
-					"line": 3,
+					"line": 5,
 					"column": 0,
 					"label": "Defines"
 				},
 				{
-					"line": 6,
+					"line": 8,
 					"column": 0,
 					"label": "Includes"
 				},
 				{
-					"line": 20,
+					"line": 22,
 					"column": 0,
 					"label": "Platform-specific includes"
 				},
 				{
-					"line": 25,
+					"line": 27,
 					"column": 0,
 					"label": "Namespace tree"
 				},
 				{
-					"line": 27,
+					"line": 29,
 					"column": 2,
 					"label": "Text colors"
 				},
 				{
-					"line": 46,
+					"line": 48,
 					"column": 2,
 					"label": "Tests"
 				},
 				{
-					"line": 50,
+					"line": 52,
 					"column": 2,
 					"label": "Functions"
 				},
 				{
-					"line": 63,
+					"line": 65,
 					"column": 0,
 					"label": "Main (entry point)"
 				},
 				{
-					"line": 81,
+					"line": 83,
 					"column": 0,
 					"label": "Start"
 				},
 				{
-					"line": 83,
+					"line": 85,
 					"column": 4,
 					"label": "Start: no arguments"
 				},
 				{
-					"line": 97,
+					"line": 99,
 					"column": 4,
 					"label": "Start: CPU"
 				},
 				{
-					"line": 100,
+					"line": 102,
 					"column": 4,
 					"label": "Start: console"
 				},
 				{
-					"line": 103,
+					"line": 105,
 					"column": 4,
 					"label": "Start: wxWidgets"
 				},
 				{
-					"line": 106,
+					"line": 108,
 					"column": 4,
 					"label": "Start: Qt"
 				},
 				{
-					"line": 109,
+					"line": 111,
 					"column": 4,
 					"label": "Start: win32"
 				},
 				{
-					"line": 112,
+					"line": 114,
 					"column": 4,
 					"label": "Start: GDI"
 				},
 				{
-					"line": 115,
+					"line": 117,
 					"column": 4,
 					"label": "Start: GDI+"
 				},
 				{
-					"line": 118,
+					"line": 120,
 					"column": 4,
 					"label": "Start: OpenGL"
 				},
 				{
-					"line": 121,
+					"line": 123,
 					"column": 4,
 					"label": "Start: Vulkan"
 				},
 				{
-					"line": 124,
+					"line": 126,
 					"column": 4,
 					"label": "Start: Metal"
 				},
 				{
-					"line": 127,
+					"line": 129,
 					"column": 4,
 					"label": "Start: Direct3D 9"
 				},
 				{
-					"line": 130,
+					"line": 132,
 					"column": 4,
 					"label": "Start: Direct3D 10"
 				},
 				{
-					"line": 133,
+					"line": 135,
 					"column": 4,
 					"label": "Start: Direct3D 11"
 				},
 				{
-					"line": 136,
+					"line": 138,
 					"column": 4,
 					"label": "Start: Direct3D 12"
 				},
 				{
-					"line": 141,
+					"line": 143,
 					"column": 0,
 					"label": "Color printing tests"
 				},
 				{
-					"line": 158,
+					"line": 160,
 					"column": 0,
 					"label": "Quit"
 				},
 				{
-					"line": 160,
+					"line": 162,
 					"column": 4,
 					"label": "Quit: 0"
 				},
 				{
-					"line": 163,
+					"line": 165,
 					"column": 4,
 					"label": "Quit: 1"
 				},
 				{
-					"line": 166,
+					"line": 168,
 					"column": 4,
 					"label": "Quit: 2"
 				},
 				{
-					"line": 169,
+					"line": 171,
 					"column": 4,
 					"label": "Quit: 3"
 				},
 				{
-					"line": 172,
+					"line": 174,
 					"column": 4,
 					"label": "Quit: 4"
 				},
 				{
-					"line": 183,
+					"line": 185,
 					"column": 0,
 					"label": "OpenGL: Process Input"
 				},
 				{
-					"line": 189,
+					"line": 191,
 					"column": 0,
 					"label": "OpenGL: Framebuffer size callback"
 				},
 				{
-					"line": 193,
+					"line": 195,
 					"column": 0,
 					"label": "Internal: Check parameters"
 				}
