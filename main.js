@@ -8,7 +8,7 @@ class app_title extends React.Component {
     return React.createElement("span", {
       style: {
         fontFamily: 'bpp_Tahoma',
-        fontSize: '2em',
+        fontSize: '3em',
         fontWeight: 'bold',
         color: 'white'
       }
