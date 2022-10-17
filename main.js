@@ -1,123 +1,94 @@
-class App extends React.Component {
-  constructor() {
-    super();
+//main.js: Blender++ Live main source code
+
+const reactElement = React.createElement; //Create the screen, basically.
+
+class app_title extends React.Component { //Create the title element.
+  render() {
+    return React.createElement("span", {
+      style: {
+        fontFamily: 'bpp_Tahoma',
+        fontSize: '3em',
+        fontWeight: 'bold',
+        color: 'white'
+      }
+    }, null, "Blender++ Live");
+  }
+};
+
+class start_popup extends React.Component { //Create the start screen pop-up.
+  constructor(props) {
+    super(props);
     this.state = {
-      color: 'black',
-      width: '1',
-      height: '1',
-      x: '0',
-      y: '0',
-      isDrawing: false,
-      isErasing: false,
-      isFilling: false,
-      isMoving: false,
-      isResizing: false,
-      isSelecting: false,
-      isSaving: false,
-      isLoading: false,
-      isClearing: false,
-      isUndoing: false,
-      isRedoing: false,
-      isDeleting: false,
-      isCopying: false,
-      isPasting: false,
-      isCutting: false,
-      isDeselecting: false,
-      isSelectingAll: false,
-      isInverting: false,
-      isRotating: false,
-      isFlipping: false,
-      isMirroring: false,
-      isZooming: false,
-      isCropping: false,
-      isAdjusting: false,
-      isFiltering: false,
-      isBlurring: false,
-      isSharpening: false,
-      isSmoothing: false,
-      isEmbossing: false,
-      isEdgeDetecting: false,
-      isGrayscaling: false,
-      isSepiaToning: false,
-      isPosterizing: false,
-      isSolarizing: false,
-      isThresholding: false,
-      isDithering: false,
-      isInvertingColors: false,
-      isChangingColors: false,
-      isChangingBrightness: false,
-      isChangingContrast: false,
-      isChangingSaturation: false,
-      isChangingHue: false,
-      isChangingGamma: false,
-      isChangingExposure: false,
-      isChangingTemperature: false,
-      isChangingTint: false,
-      isChangingHighlights: false,
-      isChangingShadows: false,
-      isChangingWhites: false,
-      isChangingBlacks: false,
-      isChangingClarity: false,
-      isChangingVibrance: false,
-      isChangingDehaze: false,
-      isChangingNoise: false,
-      isChangingPixelate: false,
-      isChangingBlur: false,
-      isChangingSharpen: false,
-      isChangingEmboss: false,
-      isChangingEdgeDetect: false,
-      isChangingGrayscale: false,
-      isChangingSepia: false,
-      isChangingPosterize: false,
-      isChangingSolarize: false,
-      isChangingThreshold: false,
-      isChangingDither: false,
-      isChangingInvertColors: false,
-      isChangingColorBalance: false,
-      isChangingBrightnessContrast: false,
-      isChangingSaturationLightness: false,
-      isChangingHueSaturation: false,
-      isChangingGammaExposure: false,
-      isChangingTemperatureTint: false,
-      isChangingHighlightsShadows: false,
-      isChangingWhitesBlacks: false,
-      isChangingClarityVibrance: false,
-      isChangingDehazeNoise: false,
-      isChangingPixelateBlur: false,
-      isChangingSharpenEmboss: false,
-      isChangingEdgeDetectGrayscale: false,
-      isChangingSepiaPosterize: false,
-      isChangingSolarizeThreshold: false,
-      isChangingDitherInvertColors: false,
-      isChangingColorBalanceBrightnessContrast: false,
-      isChangingSaturationLightnessHueSaturation: false,
-      isChangingGammaExposureTemperatureTint: false,
-      isChangingHighlightsShadowsWhitesBlacks: false,
-      isChangingClarityVibranceDehazeNoise: false,
-      isChangingPixelateBlurSharpenEmboss: false,
-      isChangingEdgeDetectGrayscaleSepiaPosterize: false,
-      isChangingSolarizeThresholdDitherInvertColors: false,
-      isChangingColorBalanceBrightnessContrastSaturationLightnessHueSaturation: false,
-      isChangingGammaExposureTemperatureTintHighlightsShadowsWhitesBlacks: false,
-      isChangingClarityVibranceDehazeNoisePixelateBlurSharpenEmboss: false,
-      isChangingEdgeDetectGrayscaleSepiaPosterizeSolarizeThresholdDitherInvertColors: false,
-      isChangingColorBalanceBrightnessContrastSaturationLightnessHueSaturationGammaExposureTemperatureTintHighlightsShadowsWhitesBlacks: false,
-      isChangingClarityVibranceDehazeNoisePixelateBlurSharpenEmbossEdgeDetectGrayscaleSepiaPosterizeSolarizeThresholdDitherInvertColors: false,
-      isChangingColorBalanceBrightnessContrastSaturationLightnessHueSaturationGammaExposureTemperatureTintHighlightsShadowsWhitesBlacksClarityVibranceDehazeNoisePixelateBlurSharpenEmbossEdgeDetectGrayscaleSepiaPosterizeSolarizeThresholdDitherInvertColors: false
+      x: screen.width / 2,
+      y: screen.height / 2
     };
+    this.handleMouseDown = this.handleMouseDown.bind(this);
+    this.handleMouseMove = this.handleMouseMove.bind(this);
+    this.handleMouseUp = this.handleMouseUp.bind(this);
+  }
+
+  handleMouseDown(e) {
+    document.addEventListener('mousemove', this.handleMouseMove);
+    document.addEventListener('mouseup', this.handleMouseUp);
+  }
+
+  handleMouseMove(e) {
+    this.setState({
+      x: e.clientX,
+      y: e.clientY
+    });
+  }
+
+  handleMouseUp(e) {
+    this.setState({
+      x: e.clientX,
+      y: e.clientY
+    });
+    document.removeEventListener('mousemove', this.handleMouseMove);
+    document.removeEventListener('mouseup', this.handleMouseUp);
   }
 
   render() {
-    return React.createElement(
-      'div',
-      null,
-      React.createElement(
-        'h1',
-        null,
-        'Hello World!'
-      )
-    );
+    return React.createElement("div", { //Main content of pop-up
+      style: {
+        backgroundColor: '#454545',
+        width: '75%',
+        height: '75%',
+        position: 'absolute',
+        borderRadius: '0.625em',
+        top: this.state.y,
+        left: this.state.x,
+        border: '1px solid #282828',
+        borderRadius: '0.625em',
+        boxShadow: '0em 0em 1em #202020'
+      }
+    }, null, React.createElement("div", { //Title bar
+      style: {
+        cursor: 'move',
+        backgroundColor: '#282828',
+        width: '100%',
+        height: '10%',
+        color: 'white',
+        fontFamily: 'bpp_Tahoma',
+        fontSize: '1.5em',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        //paddingTop: '0.25em',
+        borderRadius: '0.625em',
+        userSelect: 'none'
+      },
+      onMouseDown: this.handleMouseDown
+    }, null, "Welcome to Blender++ Live!"));
   }
 }
 
-ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
+//Set the background style.
+document.body.style.backgroundColor = '#454545';
+document.body.style.width = '100%';
+document.body.style.height = '100%';
+
+//Finish up and render stuff
+const domContainer = document.querySelector('#render_area');
+const root = ReactDOM.createRoot(domContainer);
+root.render(reactElement(app_title));
+root.render(reactElement(start_popup));
