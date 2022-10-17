@@ -1,13 +1,18 @@
 //main.js: Blender++ Live main source code
 
 //Create the screen, basically
-const reactElement = React.createElement("div", {
-  style: {
-    backgroundColor: '#454545',
-    width: '100%',
-    height: '100%'
+class reactElement extends React.Component{
+  render() {
+    return React.createElement("div", {
+      style: {
+        backgroundColor: '#454545',
+        foregroundColor: '#454545',
+        width: '100%',
+        height: '100%'
+      }
+    });
   }
-});
+}
 
 class AppTitle extends React.Component {
   render() {
