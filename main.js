@@ -10,7 +10,7 @@ class app_title extends React.Component {
         fontFamily: 'bpp_Tahoma',
         fontSize: '2em',
         fontWeight: 'bold',
-        color: 'black'
+        color: 'white'
       }
     }, null, "Blender++ Live");
   }
