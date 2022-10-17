@@ -34,8 +34,8 @@ class start_popup extends React.Component { //Create the start screen pop-up.
 
   handleMouseMove(e) {
     this.setState({
-      x: e.clientX,
-      y: e.clientY
+      x: e.clientX / 2,
+      y: e.clientY / 2
     });
   }
 
