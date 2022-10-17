@@ -58,6 +58,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         borderRadius: '0.625em',
         top: this.state.y,
         left: this.state.x,
+        border: '10px solid #282828',
         boxShadow: '0em 0em 1em #202020'
       }
     }, null, React.createElement("div", { //Title bar
@@ -74,7 +75,6 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         fontWeight: 'bold',
         textAlign: 'center',
         paddingTop: '0.626em',
-        border: '1px solid #282828',
         borderRadius: '0.625em',
         userSelect: 'none'
       },
