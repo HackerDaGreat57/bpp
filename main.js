@@ -57,7 +57,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         position: 'absolute',
         top: this.state.y,
         left: this.state.x,
-        boxShadow: '0em 0em 1em #404040'
+        boxShadow: '0em 0em 1em #202020'
       }
     }, null, React.createElement("div", { //Title bar
       style: {
