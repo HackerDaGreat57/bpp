@@ -2,14 +2,14 @@
 A multi-purpose free and open-source application that aims to (eventually) be a complete software suite which will replace all software on your computer except for your operating system and drivers. It's like a neat little toolbox that you can take apart and tinker with, just like the [Blender](https://www.blender.org/) project.
 
 ## Platforms this project supports
-We plan on world dominance. We **plan** to support Windows, macOS, Linux, Android, iOS, watchOS, tvOS, iPadOS, Java VM, and cloud-based JavaScript.
+We plan on world dominance. We **plan** to support Windows, macOS, Linux, Android, iOS, watchOS, tvOS, iPadOS, Java VM, and cloud-based JavaScript (aka Live).
 
 The ports for Windows and Linux are in this branch. The appropriate branch is linked for every other port.
 
 ### Windows (branch 'cpp')
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
 * **Supported architecture(s):** `x86-64`, `x86-32`
-* **Supported version(s):** Aiming for compatibility with at least Windows 7 Service Pack 1 or later, but there is no guarantee.
+* **Supported version(s):** Aiming for compatibility with Windows 2000 Professional (no Service Pack)
 
 ### Linux (branch 'cpp')
 Currently not supported, but planned. This version will be based on the Windows version codebase with some slight Linux-specific differences. We need help!
