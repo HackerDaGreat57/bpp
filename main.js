@@ -55,6 +55,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         width: '75%',
         height: '75%',
         position: 'absolute',
+        borderRadius: '0.625em',
         top: this.state.y,
         left: this.state.x,
         boxShadow: '0em 0em 1em #202020'
@@ -74,6 +75,7 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         textAlign: 'center',
         paddingTop: '0.625em',
         border: '1px solid #282828',
+        borderRadius: '0.625em',
         userSelect: 'none'
       },
       onMouseDown: this.handleMouseDown
