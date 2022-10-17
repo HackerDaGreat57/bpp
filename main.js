@@ -54,7 +54,6 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         backgroundColor: '#454545',
         width: '75%',
         height: '75%',
-        borderRadius: '0.625em',
         position: 'absolute',
         top: this.state.y,
         left: this.state.x,
@@ -66,14 +65,15 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         backgroundColor: '#282828',
         width: '100%',
         height: '10%',
-        borderTopLeftRadius: '10px',
-        borderTopRightRadius: '10px',
+        borderTopLeftRadius: '0.625em',
+        borderTopRightRadius: '0.625em',
         color: 'white',
         fontFamily: 'bpp_Tahoma',
         fontSize: '1.5em',
         fontWeight: 'bold',
         textAlign: 'center',
-        paddingTop: '10px'
+        paddingTop: '0.625em',
+        border: '1px solid #282828'
       },
       onMouseDown: this.handleMouseDown
     }, null, "Welcome to Blender++ Live!"));
