@@ -34,22 +34,22 @@ class start_popup extends React.Component { //Create the start screen pop-up.
 
   handleMouseMove(e) {
     this.setState({
-      x: e.clientX / 2,
-      y: e.clientY / 2
+      x: e.clientX,
+      y: e.clientY
     });
   }
 
   handleMouseUp(e) {
     this.setState({
-      x: e.clientX,
-      y: e.clientY
+      x: e.clientX / 2,
+      y: e.clientY / 2
     });
     document.removeEventListener('mousemove', this.handleMouseMove);
     document.removeEventListener('mouseup', this.handleMouseUp);
   }
 
   render() {
-    return React.createElement("div", {
+    return React.createElement("div", { //Main content of pop-up
       style: {
         backgroundColor: '#454545',
         width: '75%',
