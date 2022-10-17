@@ -11,6 +11,18 @@ const appTitle_style = {
   color: 'black'
 };
 
+const app_bg = {
+  backgroundColor: '#454545',
+  width: '100%',
+  height: '100%'
+}
+
+function App() {
+  return React.createElement("div", null, React.createElement("span", {
+    style: app_bg
+  }, null));
+}
+
 class AppTitle extends React.Component {
   render() {
     return React.createElement("div", null, React.createElement("span", {
