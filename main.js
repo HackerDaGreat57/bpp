@@ -56,8 +56,8 @@ class start_popup extends React.Component { //Create the start screen pop-up.
     return React.createElement("div", {
       style: {
         backgroundColor: '#454545',
-        width: '50%',
-        height: '50%',
+        width: '75%',
+        height: '75%',
         borderRadius: '0.625em',
         position: 'absolute',
         top: this.state.y,
