@@ -22,9 +22,9 @@ class start_popup extends React.Component { //Create the pop-up box.
         backgroundColor: '#454545',
         width: '100%',
         height: '100%',
-        position: 'absolute',
-        top: '0',
-        left: '0',
+        position: 'relative',
+        top: '5em',
+        left: '5em',
         zIndex: '1'
       }
     }, null, "Hello World!");
