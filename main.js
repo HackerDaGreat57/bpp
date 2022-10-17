@@ -3,14 +3,6 @@
 //Create the screen, basically
 const reactElement = React.createElement;
 
-//Styles
-const appTitle_style = {
-  fontFamily: 'Tahoma',
-  fontSize: '2em',
-  fontWeight: 'bold',
-  color: 'black'
-};
-
 function App() {
   return React.createElement("div", {
     style: {
@@ -25,7 +17,12 @@ export default App;
 class AppTitle extends React.Component {
   render() {
     return React.createElement("div", null, React.createElement("span", {
-      style: appTitle_style
+      style: {
+        fontFamily: 'Tahoma',
+        fontSize: '2em',
+        fontWeight: 'bold',
+        color: 'white'
+      }
     }, null, "Blender++ Live"));
   }
 }
