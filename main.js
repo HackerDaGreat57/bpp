@@ -5,14 +5,14 @@ const reactElement = React.createElement;
 
 class app_title extends React.Component {
   render() {
-    return React.createElement("div", null, React.createElement("span", {
+    return React.createElement("span", {
       style: {
         fontFamily: 'Tahoma',
         fontSize: '2em',
         fontWeight: 'bold',
         color: 'black'
       }
-    }, null, "Blender++ Live"));
+    }, null, "Blender++ Live");
   }
 }
 
