@@ -68,8 +68,6 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         backgroundColor: '#282828',
         width: '100%',
         height: '10%',
-        borderTopLeftRadius: '0.625em',
-        borderTopRightRadius: '0.625em',
         color: 'white',
         fontFamily: 'bpp_Tahoma',
         fontSize: '1.5em',
