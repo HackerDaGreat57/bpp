@@ -15,7 +15,7 @@ class app_title extends React.Component { //Create the title element.
   }
 };
 
-class start_popup extends React.Component { //Create the start popup.
+class start_popup extends React.Component { //Create the start screen pop-up.
   render() {
     return React.createElement("div", {
       style: {
@@ -26,7 +26,7 @@ class start_popup extends React.Component { //Create the start popup.
         position: 'absolute',
         top: '25%',
         left: '25%',
-        boxShadow: '0em 0em 0.625em #060606'
+        boxShadow: '0em 0em 1.625em #060606'
       }
     }, null, React.createElement("div", {
       style: {
