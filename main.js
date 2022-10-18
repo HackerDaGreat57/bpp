@@ -67,14 +67,15 @@ class start_popup extends React.Component { //Create the start screen pop-up.
         cursor: 'move',
         backgroundColor: '#282828',
         width: '100%',
-        height: '10%',
+        height: '7.9%',
         color: 'white',
         fontFamily: 'bpp_Tahoma',
         fontSize: '1.5em',
         fontWeight: 'bold',
         textAlign: 'center',
-        //paddingTop: '0.25em',
-        borderRadius: '0.359em',
+        paddingTop: '0.15em',
+        borderTopLeftRadius: '0.3671em',
+        borderTopRightRadius: '0.3671em',
         userSelect: 'none'
       },
       onMouseDown: this.handleMouseDown
