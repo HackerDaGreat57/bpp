@@ -2,18 +2,11 @@
 
 const reactElement = React.createElement; //Create the screen, basically.
 
-class app_title extends React.Component { //Create the title element.
-  render() {
-    return React.createElement("span", {
-      style: {
-        fontFamily: 'bpp_Tahoma',
-        fontSize: '3em',
-        fontWeight: 'bold',
-        color: 'white'
-      }
-    }, null, "Blender++ Live");
-  }
-};
+//Before we create the start screen pop-up, make some calculations about the user's screen
+var popup_width = (100 * 75) / screen.availWidth; //Find 75% of the user's current screen width
+if(isNaN(popup_width) == true) { //Something's horribly wrong if that's not a number
+  console.error("{Blender++ Core} [" + this.filename + ":" + Error().lineNumber + "] <ERROR> Your screen appears to have a horizontal resolution of 0 pixels. This is most likely a bug, please report it at https://github.com/HackerDaGreat57/bpp/issues/new.");
+}
 
 class start_popup extends React.Component { //Create the start screen pop-up.
   constructor(props) {
@@ -91,5 +84,4 @@ document.body.style.height = '100%';
 //Finish up and render stuff
 const domContainer = document.querySelector('#render_area');
 const root = ReactDOM.createRoot(domContainer);
-root.render(reactElement(app_title));
 root.render(reactElement(start_popup));
