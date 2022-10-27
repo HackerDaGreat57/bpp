@@ -68,4 +68,4 @@ This application is meant to replace all the overpriced proprietary software out
 My stance on proprietary software is exactly the opposite of Bill Gates' opinion, including the hint of anger. Microsoft Windows and Apple's operating systems are the only exceptions to my hate, but that's only because over 60% of the world's personal computers are running them. And still I feel that there is injustice done to us due to having to pay $130+ for the most popular desktop operating system in the world. So that's why. In the digital world, I don't want you to pay for anything more than your physical computer and maybe its operating system.
 
 ## The history of this project
-If you look at the dozens of repositories I currently have, they are either forks or baseless claims of greatness. These are the products of me not having enough time to work on them properly, but now that summer is over and my teachers are giving less homework I am able to actually get somewhere. I have wanted to build this app since 2019, but I never found enough time to do so until now.
+I have wanted to build this app since 2019, but I never found enough time to do so until now.
