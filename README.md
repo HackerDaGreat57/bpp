@@ -1,8 +1,8 @@
 # Blender++
 A multi-purpose free and open-source application that aims to (eventually) be a complete software suite which will replace all software on your computer except for your operating system and drivers. It's like a neat little toolbox that you can take apart and tinker with, just like the [Blender](https://www.blender.org/) project.
 
-## Platforms this project supports
-We plan on world dominance. We **plan** to support Windows, macOS, Linux, Android, iOS, watchOS, tvOS, iPadOS, Java VM, and cloud-based JavaScript (aka Live).
+## Platforms this project plans to support
+We plan on world dominance. We **plan** to support Windows, macOS, Linux, Android, iOS, watchOS, tvOS, iPadOS, Java VM, Python, and cloud-based JavaScript (aka Live).
 
 The ports for Windows and Linux are in this branch. The appropriate branch is linked for every other port.
 
@@ -21,6 +21,9 @@ I have no Apple devices other than a 1st-generation iPhone SE and a 1st-generati
 
 ### Java (branch 'java')
 This port will work wherever OpenJDK 1.19 works, using JavaFX/Swing/AWT/(OpenGL/Vulkan via `lwjgl3`) for the GUI. Under development.
+
+### Python (branch 'python')
+Since Python is relatively slow and memory-intensive this implementation's purpose will mainly just be programming reference for other python-based applications.
 
 ### Android (branch 'android')
 Under development.
