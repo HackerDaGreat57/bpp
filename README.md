@@ -1,3 +1,5 @@
+# README under construction, some stuff may not make sense
+
 # Blender++
 A multi-purpose free and open-source application that aims to (eventually) be a complete software suite which will replace all software on your computer except for your operating system and drivers. It's like a neat little toolbox that you can take apart and tinker with, just like the [Blender](https://www.blender.org/) project.
 
@@ -8,11 +10,14 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 
 ### Windows (branch 'cpp')
 * **Build method:** [`scripts/build.windows.bat`](https://github.com/HackerDaGreat57/bpp/blob/main/scripts/build.windows.bat)
-* **Supported architecture(s):** `x86-64`, `x86-32`
+* **Supported architecture(s):** `x86-64`, `x86-32`, `arm64`, `IA-64`
 * **Supported version(s):** Aiming for compatibility with Windows 2000 Professional (no Service Pack)
 
 ### Linux (branch 'cpp')
-Currently not supported, but planned. This version will be based on the Windows version codebase with some slight Linux-specific differences. We need help!
+* **Build method:** Not supported but planned
+* **Supported architecture(s):** `x86-64`, `x86-32`, `arm64`, `s390`
+
+Currently not supported, but planned. This version will be based on the Windows version codebase with some slight Linux-specific differences. Different versions for DEB/RPM/Generic Linux will be released. We need help!
 
 ### Apple Devices (branch 'macos', 'ios', 'ipados', 'watchos', 'tvos')
 macOS, iOS, iPadOS, watchOS, and tvOS versions will all be based on Swift/SwiftUI (backend/frontend). No renderer options - only SwiftUI will be supported.
