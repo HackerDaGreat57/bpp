@@ -1,5 +1,3 @@
-# README under construction, some stuff may not make sense
-
 # Blender++
 A multi-purpose free and open-source application that aims to (eventually) be a complete software suite which will replace all software on your computer except for your operating system and drivers. It's like a neat little toolbox that you can take apart and tinker with, just like the [Blender](https://www.blender.org/) project.
 
@@ -14,9 +12,6 @@ The ports for Windows and Linux are in this branch. The appropriate branch is li
 * **Supported version(s):** Aiming for compatibility with Windows 2000 Professional (no Service Pack)
 
 ### Linux (branch 'cpp')
-* **Build method:** Not supported but planned
-* **Supported architecture(s):** `x86-64`, `x86-32`, `arm64`, `s390`
-
 Currently not supported, but planned. This version will be based on the Windows version codebase with some slight Linux-specific differences. Different versions for DEB/RPM/Generic Linux will be released. We need help!
 
 ### Apple Devices (branch 'macos', 'ios', 'ipados', 'watchos', 'tvos')
@@ -28,13 +23,15 @@ I have no Apple devices other than a 1st-generation iPhone SE and a 1st-generati
 This port will work wherever OpenJDK 1.19 works, using JavaFX/Swing/AWT/(OpenGL/Vulkan via `lwjgl3`) for the GUI. Under development.
 
 ### Python (branch 'python')
-Since Python is relatively slow and memory-intensive this implementation's purpose will mainly just be programming reference for other python-based applications.
+Since Python is relatively slow and memory-intensive this implementation's purpose will mainly just be programming reference for other python-based applications. Will brainstorm user interface methods when we get to making this one.
 
 ### Android (branch 'android')
 Under development.
 
 ### Online (branch 'live')
-*Blender++ Live* will be written in JavaScript and React, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement (except it will exclude low-level utilities like hardware management etc).
+This version is currently being developed.
+
+*Blender++ Live* is written in JavaScript and React, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement (except it will exclude low-level utilities like hardware management etc).
 
 ## Update Order
 Since it's impossible to develop every version of this application at the same time, different versions of the app will be updated at different times.
@@ -43,6 +40,7 @@ Since it's impossible to develop every version of this application at the same t
 3. Apple Devices
 4. Android
 5. Windows/Linux
+6. Python
 
 ## Current state of the project/development status
 You can view Blender++'s [GitHub Project](https://github.com/users/HackerDaGreat57/projects/2).
