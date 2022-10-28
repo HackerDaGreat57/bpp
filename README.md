@@ -1,5 +1,10 @@
 # Blender++ Live
-Under very early development. The [GitHub Pages version](https://hackerdagreat57.github.io/bpp) is not meant to be used in a production environment, only for testing purposes.
+Node.js based online port of Blender++. Under very early development.
 
-## Libraries this project uses
+## To-Do List (newest first)
+- [ ] Set up Deflate/GZIP/Brotli compression for the server
+- [X] Set up a basic server
+
+## Things this project uses
 1. [React.js](https://reactjs.org)
+2. [Node.js](https://nodejs.org)
