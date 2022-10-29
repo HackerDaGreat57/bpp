@@ -28,7 +28,7 @@ Under development.
 ### Online (branch 'live')
 This version is currently being developed.
 
-*Blender++ Live* is written in JavaScript and React, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement (except it will exclude low-level utilities like hardware management etc).
+*Blender++ Live* is web-based, and will match the feature set of all other versions. This port is meant for giving you a taste of Blender++ before you download, but it can be used as an online replacement (except it will exclude low-level utilities like hardware management etc).
 
 ## Update Order
 Since it's impossible to develop every version of this application at the same time, different versions of the app will be updated at different times.
